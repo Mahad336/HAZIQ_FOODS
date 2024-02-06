@@ -10535,6 +10535,7 @@ h5,
   background: #2a2a2c;
   padding: 0;
   position: relative;
+  width: 100%;
   z-index: 0;
 }
 .wrap .bg-wrap:after {
@@ -10592,6 +10593,21 @@ h5,
 
 .social-media {
   display: inline-block;
+}
+/* .nav-links p a {
+  width: 40px;
+  height: 40px;
+  margin-right: 1px;
+} */
+.nav-links p a span {
+  color: #fff;
+}
+.nav-links p a:hover {
+  background: #1ba12d;
+  border-color: #1ba12d;
+}
+.nav-links p a:hover span {
+  color: #fff;
 }
 .social-media p a {
   width: 40px;
